@@ -11,7 +11,7 @@ const environment = {
 
 module.exports = Object.assign({
   apiHost: process.env.APIHOST || 'localhost',
-  apiPort: process.env.PORT,
+  apiPort: process.env.PORT ? process.env.PORT : '3030',
   app: {
     title: 'Node-api',
     description: 'Test Api from React application'
