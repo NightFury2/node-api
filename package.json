@@ -10,6 +10,8 @@
   },
   "homepage": "https://github.com/NightFury2/node-api",
   "keywords": [
+    "socketio",
+    "node",
     "express"
   ],
   "main": "bin/api.js",

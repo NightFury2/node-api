@@ -11,7 +11,7 @@ const environment = {
 
 module.exports = Object.assign({
   apiHost: process.env.APIHOST || 'localhost',
-  apiPort: process.env.APIPORT,
+  apiPort: process.env.PORT,
   app: {
     title: 'ReactTestReq',
     description: 'ReactTestReq',
